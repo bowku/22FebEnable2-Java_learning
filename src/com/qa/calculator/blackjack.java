@@ -1,6 +1,6 @@
 package com.qa.calculator;
 
-public class blackjack {
+public class Blackjack {
 
 		private int a;
 		private int b;

@@ -33,8 +33,8 @@ public class Runner {
 		
 		
 		
-		numbers_exercise ex = new numbers_exercise();
+		NumbersExercise ex = new NumbersExercise();
 		
-		ex.methodOne();
+		ex.methodOne(99);
 	}
 }

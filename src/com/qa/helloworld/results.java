@@ -1,6 +1,6 @@
 package com.qa.helloworld;
 
-public class results{
+public class Results{
 
 	
 	private static double Physics = 60;

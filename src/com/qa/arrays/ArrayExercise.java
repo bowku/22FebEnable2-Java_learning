@@ -1,6 +1,6 @@
 package com.qa.arrays;
 
-public class array_exercise {
+public class ArrayExercise {
 	
 	
 	public static void main(String[] args) {

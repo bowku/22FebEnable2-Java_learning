@@ -1,6 +1,6 @@
 package com.qa.iteration;
 
-public class coins {
+public class Coins {
 
 	public float change(double d, float amount){
 		float c;
