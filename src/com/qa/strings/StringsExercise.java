@@ -19,13 +19,14 @@ public class StringsExercise {
 		
 	}
 	
-	
-//	System.out.println(str1.length());
-//	
-//	System.out.println();
-//	
-//	System.out.println(str1.substring(0,5));
-//	System.out.println(str1.substring(6,11));
+	public void methodTwo(String vertical) {
+		int j = 0;
+		for(int i = 0 ; i<vertical.length();i++) {
+		if (vertical.charAt(i)==' '){j=vertical.indexOf(" ");}
+		}
+			System.out.println(vertical.substring(0,j));
+	}
+
 
 
 
