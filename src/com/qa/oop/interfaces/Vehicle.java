@@ -1,4 +1,4 @@
-package com.qa.oop.challenge;
+package com.qa.oop.interfaces;
 
 public abstract class Vehicle {
 //add type to make question easier as a variable and add them into the other vehicles
@@ -41,7 +41,7 @@ public abstract class Vehicle {
 	
 	public abstract void calculateBill();
 	
-	public void turnRadioOn() {
+	public void RadioOn() {
 		System.out.println("Radio on");
 	}
 	

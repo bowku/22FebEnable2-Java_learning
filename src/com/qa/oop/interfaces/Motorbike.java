@@ -1,6 +1,6 @@
-package com.qa.oop.challenge;
+package com.qa.oop.interfaces;
 
-public class Motorbike extends Vehicle {
+public class Motorbike extends Vehicle implements Radio {
 	
 	private boolean fancy;
 	
@@ -27,6 +27,18 @@ public class Motorbike extends Vehicle {
 	@Override
 	public String toString() {
 		return "Motorbike [wheels = " + this.getWheels() + ", make = " + this.getMake() + ", colour = " + this.getColour() + ", fancy = " + fancy + "]";
+	}
+
+	@Override
+	public void radioOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void radioOff() {
+		// TODO Auto-generated method stub
+		
 	}
 
 

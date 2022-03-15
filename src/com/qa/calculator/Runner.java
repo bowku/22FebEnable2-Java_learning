@@ -42,9 +42,13 @@ public class Runner {
 //			
 //			r.percentages();
 		
-			Blackjack b = new Blackjack();
+//			Blackjack b = new Blackjack();
+//			
+//			System.out.println(b.play(21,21));
+		
+			Calculator calc = new Calculator();
 			
-			System.out.println(b.play(21,21));
+			calc.interaction();
 			
 		}
 
